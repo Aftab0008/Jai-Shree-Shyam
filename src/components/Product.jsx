@@ -3,7 +3,7 @@
 import img01 from "../assets/01.png"
 import img02 from "../assets/02.png"
 import img03 from "../assets/03.png"
-import img04 from "../assets/04.png"
+import img04 from "../assets/04.PNG"
 
 export default function Products() {
   const products = [
