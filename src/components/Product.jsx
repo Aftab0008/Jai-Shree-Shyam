@@ -3,7 +3,7 @@
 import img01 from "../assets/01.png"
 import img02 from "../assets/02.png"
 import img03 from "../assets/03.png"
-import img04 from "../assets/04.PNG"
+
 
 export default function Products() {
   const products = [
@@ -25,12 +25,7 @@ export default function Products() {
       subtitle: "Events & Seminars",
       image: img03,
     },
-    {
-      id: 4,
-      title: "20L Bulk Jar",
-      subtitle: "Daily Office Supply",
-      image: img04,
-    },
+   
   ]
 
   return (
@@ -64,7 +59,7 @@ export default function Products() {
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 items-center sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
           {products.map(product => (
             <div
