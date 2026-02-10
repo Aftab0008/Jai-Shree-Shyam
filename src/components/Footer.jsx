@@ -118,7 +118,7 @@ export default function Footer() {
                 className="flex items-center gap-2 text-blue-100 hover:text-white transition-colors text-sm group"
               >
                 <MapPin size={16} className="group-hover:scale-110 transition-transform" />
-                <span>Gujarat, India</span>
+                <span>Rastriya Ganj, Phulwari Sharif, Station Road, Patna (801505)</span>
               </a>
             </div>
           </div>
