@@ -68,7 +68,7 @@ export default function Contact() {
               <div>
                 <p className="font-bold text-slate-900">Our Office</p>
                 <p className="text-slate-600 text-sm">
-                  Mithapur, Near Flyover, Patna, Bihar - 800001
+                  Rastriya Ganj, Phulwari Sharif, Station Road, Patna (801505)
                 </p>
               </div>
             </div>
@@ -78,11 +78,10 @@ export default function Contact() {
 
               <iframe
                 title="Google Map"
-                src="https://www.google.com/maps?q=Phulwari%20Sharif%20Patna&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3420.8832595552526!2d85.06667327517651!3d25.57310947747084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a90019df49c9%3A0x1f21e0d8597358fe!2sRastriya%20Ganj!5e1!3m2!1sen!2sin!4v1770748451288!5m2!1sen!2sin"
                 className="w-full h-full grayscale"
                 loading="lazy"
               />
-
               <a
                 href="https://www.google.com/maps?q=Phulwari+Sharif+Patna"
                 target="_blank"
