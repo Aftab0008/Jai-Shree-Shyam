@@ -13,7 +13,7 @@ export default function About() {
             <div className="bg-[#f1f7ff] rounded-2xl p-6 flex flex-col items-center justify-center text-center
               hover:scale-105 transition duration-300">
               <div className="text-blue-500 text-2xl mb-2">⏱️</div>
-              <h3 className="text-2xl font-bold text-slate-900">10+</h3>
+              <h3 className="text-2xl font-bold text-slate-900">3+</h3>
               <p className="text-sm text-slate-600">Years Exp</p>
             </div>
 
