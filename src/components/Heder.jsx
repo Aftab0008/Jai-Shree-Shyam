@@ -33,7 +33,7 @@ export default function Header() {
                 Jai Shree Shyam
               </h1>
               <p className="text-xs text-gray-600">
-                Custom Branded Bottles
+                 ENTERPRISES
               </p>
             </div>
           </div>
