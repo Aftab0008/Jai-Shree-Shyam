@@ -1,150 +1,97 @@
 'use client'
 
-import { Mail, MapPin, Phone, Facebook, Linkedin, Twitter } from 'lucide-react'
+import img01 from "../assets/01.JPEG"
+import img02 from "../assets/02.JPEG"
+import img03 from "../assets/03.jpg"
 
-export default function Footer() {
-  const currentYear = new Date().getFullYear()
+
+export default function Products() {
+  const products = [
+    {
+      id: 1,
+      title: "200ml Mini",
+      subtitle: "Premium Wedding Special",
+      image: img01,
+    },
+    {
+      id: 2,
+      title: "500ml Standard",
+      subtitle: "Corporate & Official",
+      image: img02,
+    },
+    {
+      id: 3,
+      title: "1 Liter Classic",
+      subtitle: "Events & Seminars",
+      image: img03,
+    },
+   
+  ]
 
   return (
-    <footer className="bg-blue-950 text-white py-16">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
-          {/* Company Info */}
-          <div className="space-y-4">
-            <h3 className="text-xl font-bold text-white mb-3">Jai Shree Shyam</h3>
-            <p className="text-blue-100 text-sm leading-relaxed">
-              Premium custom-branded water bottles for every occasion. Join us, We Provide Your Brand In Every Hand
+    <section className="bg-white py-16 sm:py-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+
+        {/* Header */}
+        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6 mb-14">
+
+          <div>
+            <p className="text-sm font-semibold tracking-widest text-blue-500 uppercase mb-2">
+              OUR PRODUCTS
             </p>
-            <div className="flex gap-4 mt-4">
-              <a
-                href="#"
-                className="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-all duration-300 transform hover:scale-110"
-                aria-label="Facebook"
-              >
-                <Facebook size={18} />
-              </a>
-              <a
-                href="https://www.instagram.com/_abhinandan_sharma85_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                className="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-all duration-300 transform hover:scale-110"
-                aria-label="LinkedIn"
-              >
-                <Linkedin size={18} />
-              </a>
-              <a
-                href="https://www.instagram.com/_abhinandan_sharma85_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                className="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-all duration-300 transform hover:scale-110"
-                aria-label="Twitter"
-              >
-                <Twitter size={18} />
-              </a>
-            </div>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900">
+              Choose Your Size
+            </h2>
           </div>
 
-          {/* Quick Links */}
-          <div className="space-y-4">
-            <h4 className="text-lg font-semibold text-white mb-3">Quick Links</h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="#hero" className="text-blue-100 hover:text-white transition-colors text-sm">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#products" className="text-blue-100 hover:text-white transition-colors text-sm">
-                  Products
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="text-blue-100 hover:text-white transition-colors text-sm">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="text-blue-100 hover:text-white transition-colors text-sm">
-                  Contact
-                </a>
-              </li>
-            </ul>
+          <div className="flex gap-4">
+            <button className="bg-blue-500 text-white px-6 py-3 rounded-full font-semibold shadow
+              transition hover:bg-blue-600">
+              Get Quote for All Sizes
+            </button>
+
+            <button className="bg-green-500 text-white px-6 py-3 rounded-full font-semibold shadow
+              transition hover:bg-green-600">
+              WhatsApp Inquiry
+            </button>
           </div>
 
-          {/* Services */}
-          <div className="space-y-4">
-            <h4 className="text-lg font-semibold text-white mb-3">Services</h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="#" className="text-blue-100 hover:text-white transition-colors text-sm">
-                  Custom Design
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-blue-100 hover:text-white transition-colors text-sm">
-                  Bulk Orders
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-blue-100 hover:text-white transition-colors text-sm">
-                  Event Solutions
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-blue-100 hover:text-white transition-colors text-sm">
-                  Corporate Gifts
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Contact Info */}
-          <div className="space-y-4">
-            <h4 className="text-lg font-semibold text-white mb-3">Get In Touch</h4>
-            <div className="space-y-3">
-              <a
-                href="tel:+919876543210"
-                className="flex items-center gap-2 text-blue-100 hover:text-white transition-colors text-sm group"
-              >
-                <Phone size={16} className="group-hover:scale-110 transition-transform" />
-                <span>+91 98765 43210</span>
-              </a>
-              <a
-                href="mailto:info@jaisfreeshyam.com"
-                className="flex items-center gap-2 text-blue-100 hover:text-white transition-colors text-sm group"
-              >
-                <Mail size={16} className="group-hover:scale-110 transition-transform" />
-                <span>info@jaishyam.com</span>
-              </a>
-              <a
-                href="#"
-                className="flex items-center gap-2 text-blue-100 hover:text-white transition-colors text-sm group"
-              >
-                <MapPin size={16} className="group-hover:scale-110 transition-transform" />
-                <span>Rastriya Ganj, Phulwari Sharif, Station Road, Patna (801505)</span>
-              </a>
-            </div>
-          </div>
         </div>
 
-        {/* Divider */}
-        <div className="border-t border-white/20 my-8" />
+        {/* Cards */}
+        <div className="grid grid-cols-1 items-center sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
-        {/* Bottom Footer */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-blue-100 text-sm text-center md:text-left">
-            © {currentYear} Jai Shree Shyam Enterprises. All rights reserved.
-          </p>
-          <div className="flex gap-6 text-sm">
-            <a href="#" className="text-blue-100 hover:text-white transition-colors">
-              Privacy Policy
-            </a>
-            <a href="#" className="text-blue-100 hover:text-white transition-colors">
-              Terms of Service
-            </a>
-            <a href="#" className="text-blue-100 hover:text-white transition-colors">
-              Cookie Policy
-            </a>
-          </div>
+          {products.map(product => (
+            <div
+              key={product.id}
+              className="group bg-white rounded-3xl shadow-md overflow-hidden
+                transition-all duration-500 hover:-translate-y-2 hover:shadow-xl"
+            >
+              {/* Image */}
+              <div className="aspect-square bg-gray-100 flex items-center justify-center">
+                <img
+                  src={product.image}
+                  alt={product.title}
+                  className="w-full h-80  object-fit
+
+                    transition-transform duration-500 group-hover:scale-105"
+                />
+              </div>
+
+              {/* Text */}
+              <div className="p-5">
+                <h3 className="text-lg font-bold text-slate-900">
+                  {product.title}
+                </h3>
+                <p className="text-sm text-slate-500 italic">
+                  {product.subtitle}
+                </p>
+              </div>
+            </div>
+          ))}
+
         </div>
       </div>
-    </footer>
+    </section>
   )
 }
