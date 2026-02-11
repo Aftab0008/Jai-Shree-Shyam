@@ -1,8 +1,8 @@
 'use client'
 
-import img01 from "../assets/01.png"
-import img02 from "../assets/02.png"
-import img03 from "../assets/03.png"
+import img01 from "../assets/01.JPEG"
+import img02 from "../assets/02.JPEG"
+import img03 from "../assets/03.jpg"
 
 
 export default function Products() {
@@ -72,7 +72,8 @@ export default function Products() {
                 <img
                   src={product.image}
                   alt={product.title}
-                  className="w-full h-full object-cover
+                  className="w-full h-80  object-fit
+
                     transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
