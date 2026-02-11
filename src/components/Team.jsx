@@ -60,7 +60,7 @@ export default function Leadership() {
               </p>
 
               <p className="text-slate-600 text-sm flex items-center gap-2">
-                📞 +91 91234 56789
+                📞 +91 6287 905 646
               </p>
             </div>
           </div>
@@ -85,7 +85,7 @@ export default function Leadership() {
               </p>
 
               <p className="text-slate-600 text-sm flex items-center gap-2">
-                📞 +91 98765 43210
+                📞 +91 85798 13785
               </p>
             </div>
           </div>
