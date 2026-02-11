@@ -111,7 +111,7 @@ export default function Footer() {
                 className="flex items-center gap-2 text-blue-100 hover:text-white transition-colors text-sm group"
               >
                 <Mail size={16} className="group-hover:scale-110 transition-transform" />
-                <span>info@jaishyam.com</span>
+                <span>Jaishreeshyamenterprisesssss@gmail.com</span>
               </a>
               <a
                 href="#"
