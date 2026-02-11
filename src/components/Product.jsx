@@ -2,7 +2,7 @@
 
 import img01 from "../assets/01.JPEG"
 import img02 from "../assets/02.JPEG"
-import img03 from "../assets/03.jpg"
+import img04 from "../assets/04.jpg"
 
 
 export default function Products() {
@@ -23,7 +23,7 @@ export default function Products() {
       id: 3,
       title: "1 Liter Classic",
       subtitle: "Events & Seminars",
-      image: img03,
+      image: img04,
     },
    
   ]
