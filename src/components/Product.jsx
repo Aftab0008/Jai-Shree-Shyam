@@ -2,7 +2,7 @@
 
 import img01 from "../assets/01.JPEG"
 import img02 from "../assets/02.JPEG"
-import img04 from "../assets/04.jpg"
+import img04 from "../assets/04.PNG"
 
 
 export default function Products() {
