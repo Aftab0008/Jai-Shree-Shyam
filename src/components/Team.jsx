@@ -56,7 +56,7 @@ export default function Leadership() {
               </h4>
 
               <p className="text-blue-600 text-xs font-semibold uppercase tracking-wide">
-              FOUNDER Managing Director
+              FOUNDER 
               </p>
 
               <p className="text-slate-600 text-sm flex items-center gap-2">
@@ -81,7 +81,7 @@ export default function Leadership() {
               </h4>
 
               <p className="text-blue-600 text-xs font-semibold uppercase tracking-wide">
-                CO-FOUNDER Managing Director
+                CO-FOUNDER 
               </p>
 
               <p className="text-slate-600 text-sm flex items-center gap-2">
