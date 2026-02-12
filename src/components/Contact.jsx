@@ -83,7 +83,7 @@ export default function Contact() {
                 loading="lazy"
               />
               <a
-                href="https://www.google.com/maps?q=Phulwari+Sharif+Patna"
+                href="https://maps.app.goo.gl/kHxgf5EyBn9FJs8e7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="absolute inset-0 flex items-center justify-center"
