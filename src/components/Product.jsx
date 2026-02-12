@@ -72,7 +72,7 @@ export default function Products() {
                 <img
                   src={product.image}
                   alt={product.title}
-                  className="w-full h-full   object-fit
+                  className="w-full h-120   object-fit
 
 
                     transition-transform duration-500 group-hover:scale-105"
