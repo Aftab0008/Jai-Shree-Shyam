@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
-import logo from '../assets/logo.jpg'   // ✅ IMPORT LOGO
+import logo from '../assets/logo.jpg'   
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -20,7 +20,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
 
-          {/* LOGO SECTION */}
+       
           <div className="flex items-center gap-3">
             <img
               src={logo}
@@ -38,7 +38,7 @@ export default function Header() {
             </div>
           </div>
 
-          {/* DESKTOP NAV */}
+         
           <nav className="hidden md:flex space-x-8">
             <button
               onClick={() => scrollToSection('products')}
@@ -72,7 +72,7 @@ export default function Header() {
         </div>
       </div>
 
-      {/* MOBILE NAV */}
+     
       {isOpen && (
         <div className="md:hidden bg-white border-t">
           <div className="px-4 py-3 space-y-2">
