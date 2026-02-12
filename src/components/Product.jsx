@@ -32,7 +32,7 @@ export default function Products() {
     <section className="bg-white py-16 sm:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
 
-        {/* Header */}
+      
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6 mb-14">
 
           <div>
@@ -58,7 +58,7 @@ export default function Products() {
 
         </div>
 
-        {/* Cards */}
+   
         <div className="grid grid-cols-1 items-center sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
           {products.map(product => (
@@ -79,7 +79,7 @@ export default function Products() {
                 />
               </div>
 
-              {/* Text */}
+         
               <div className="p-5">
                 <h3 className="text-lg font-bold text-slate-900">
                   {product.title}
