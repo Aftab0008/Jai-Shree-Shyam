@@ -48,7 +48,7 @@ export default function Contact() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
 
-          {/* LEFT CONTENT */}
+          
           <div className="space-y-8">
 
             <div>
@@ -73,7 +73,7 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* MAP SECTION */}
+         
             <div className="relative rounded-2xl overflow-hidden shadow-lg bg-gray-200 h-56 sm:h-64">
 
               <iframe
@@ -98,7 +98,7 @@ export default function Contact() {
 
           </div>
 
-          {/* RIGHT FORM */}
+         
           <div className="bg-white rounded-3xl shadow-xl p-6 sm:p-8">
 
             <form onSubmit={handleSubmit} className="space-y-5">
@@ -149,7 +149,7 @@ export default function Contact() {
                 </select>
               </div>
 
-              {/* ✅ Bottle Size */}
+             
               <div>
                 <label className="text-sm font-semibold text-slate-700">
                   Bottle Size
