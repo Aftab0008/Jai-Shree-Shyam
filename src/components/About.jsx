@@ -6,10 +6,10 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
-          {/* LEFT STATS */}
+        
           <div className="grid grid-cols-2 gap-6">
 
-            {/* Card 1 */}
+          
             <div className="bg-[#f1f7ff] rounded-2xl p-6 flex flex-col items-center justify-center text-center
               hover:scale-105 transition duration-300">
               <div className="text-blue-500 text-2xl mb-2">⏱️</div>
@@ -17,7 +17,7 @@ export default function About() {
               <p className="text-sm text-slate-600">Years Exp</p>
             </div>
 
-            {/* Card 2 (Highlighted) */}
+            
             <div className="bg-blue-600 text-white rounded-2xl p-6 flex flex-col items-center justify-center text-center
               hover:scale-105 transition duration-300 shadow-lg">
               <div className="text-2xl mb-2">👥</div>
@@ -25,7 +25,7 @@ export default function About() {
               <p className="text-sm opacity-90">Events Done</p>
             </div>
 
-            {/* Card 3 */}
+           
             <div className="bg-[#f1f7ff] rounded-2xl p-6 flex flex-col items-center justify-center text-center
               hover:scale-105 transition duration-300">
               <div className="text-blue-500 text-2xl mb-2">👍</div>
@@ -33,7 +33,7 @@ export default function About() {
               <p className="text-sm text-slate-600">Quality</p>
             </div>
 
-            {/* Card 4 */}
+          
             <div className="bg-white border rounded-2xl p-6 flex flex-col items-center justify-center text-center
               hover:scale-105 transition duration-300">
               <div className="text-red-500 text-2xl mb-2">❤️</div>
@@ -43,7 +43,7 @@ export default function About() {
 
           </div>
 
-          {/* RIGHT CONTENT */}
+       
           <div className="space-y-6">
             <p className="text-sm font-semibold tracking-widest text-blue-500 uppercase">
               ABOUT US
@@ -61,7 +61,7 @@ export default function About() {
               or celebration's spirit.
             </p>
 
-            {/* Bullet Points */}
+            
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <span className="text-green-500">✔</span>
@@ -85,7 +85,7 @@ export default function About() {
               </div>
             </div>
 
-            {/* CTA */}
+          
             <a
               href="#"
               className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:gap-3 transition-all"
