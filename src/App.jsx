@@ -1,4 +1,4 @@
-// src/App.jsx
+
 import { Routes, Route } from 'react-router-dom'
 import { useState } from 'react'
 
@@ -17,10 +17,10 @@ function App() {
 
   return (
     <>
-      {/* PRELOADER */}
+      
       {loading && <WaterPreloader onComplete={() => setLoading(false)} />}
 
-      {/* MAIN WEBSITE */}
+      
       {!loading && (
         <div className="App">
           <Header />
