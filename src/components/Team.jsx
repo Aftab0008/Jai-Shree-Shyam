@@ -9,7 +9,7 @@ export default function Leadership() {
     <section className="bg-white py-16 sm:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
 
-        {/* TOP HEADING */}
+      
         <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900">
           Let's Build Your{' '}
           <span className="text-blue-600">Brand Identity</span>
@@ -20,7 +20,7 @@ export default function Leadership() {
           our team is here to help your business stand out.
         </p>
 
-        {/* LEADERSHIP TITLE */}
+       
         <div className="mt-16">
           <span className="inline-block px-4 py-1 text-xs font-semibold tracking-widest
             text-blue-600 bg-blue-50 rounded-full uppercase">
@@ -37,10 +37,10 @@ export default function Leadership() {
           </p>
         </div>
 
-         {/* PHOTO BOX CARDS */}
+        
         <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 gap-10">
 
-          {/* CARD 1 */}
+       
           <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition overflow-hidden text-left">
             <div className="h-80 w-full overflow-hidden">
               <img
@@ -65,7 +65,7 @@ export default function Leadership() {
             </div>
           </div>
 
-          {/* CARD 2 */}
+          
           <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition overflow-hidden text-left">
             <div className="h-80 w-full overflow-hidden">
               <img
