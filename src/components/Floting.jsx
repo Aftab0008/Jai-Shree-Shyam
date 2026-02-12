@@ -21,7 +21,7 @@ export default function FloatingWhatsApp() {
 
   return (
     <>
-      {/* Floating Menu */}
+   
       {isOpen && (
         <div
           className="fixed bottom-24 right-6 bg-white rounded-2xl shadow-2xl p-4 z-40 animate-in fade-in slide-in-from-bottom-2 duration-300"
@@ -45,27 +45,26 @@ export default function FloatingWhatsApp() {
         </div>
       )}
 
-      {/* Main Floating Button */}
+     
       <div
         className="fixed bottom-6 right-6 z-50"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        {/* Animated Pulse Background */}
+        
         <div
           className={`absolute inset-0 bg-gradient-to-r from-green-400 to-green-500 rounded-full blur-lg opacity-75 transition-all duration-500 ${
             isHovered || isOpen ? 'scale-125' : 'scale-100'
           }`}
         ></div>
 
-        {/* Floating Pulsing Ring */}
+       
         <div className="absolute inset-0 rounded-full border-4 border-green-400 opacity-50 animate-pulse"
           style={{
             animation: 'ring-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
           }}
         ></div>
 
-        {/* Second Ring */}
         <div
           className="absolute inset-0 rounded-full border-2 border-green-300 opacity-30"
           style={{
@@ -74,7 +73,7 @@ export default function FloatingWhatsApp() {
           }}
         ></div>
 
-        {/* Button */}
+     
         <button
           onClick={() => setIsOpen(!isOpen)}
           className={`relative w-16 h-16 rounded-full bg-gradient-to-br from-green-400 to-green-600 shadow-2xl flex items-center justify-center text-white font-bold text-2xl hover:shadow-3xl transition-all duration-300 transform ${
@@ -92,7 +91,7 @@ export default function FloatingWhatsApp() {
           </svg>
         </button>
 
-        {/* Animated Chat Label */}
+       
         {!isOpen && (
           <div
             className={`absolute right-20 top-1/2 transform -translate-y-1/2 bg-primary text-white px-4 py-2 rounded-lg shadow-lg whitespace-nowrap text-sm font-semibold transition-all duration-300 ${
@@ -109,7 +108,7 @@ export default function FloatingWhatsApp() {
         )}
       </div>
 
-      {/* Overlay when menu is open */}
+     
       {isOpen && (
         <div
           className="fixed inset-0 z-30"
