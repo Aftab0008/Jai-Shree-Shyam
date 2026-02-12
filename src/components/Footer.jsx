@@ -8,9 +8,9 @@ export default function Footer() {
   return (
     <footer className="bg-blue-950 text-white py-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Main Footer Content */}
+      
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
-          {/* Company Info */}
+        
           <div className="space-y-4">
             <h3 className="text-xl font-bold text-white mb-3">Jai Shree Shyam</h3>
             <p className="text-blue-100 text-sm leading-relaxed">
@@ -41,7 +41,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
+         
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-white mb-3">Quick Links</h4>
             <ul className="space-y-2">
@@ -68,7 +68,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Services */}
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-white mb-3">Services</h4>
             <ul className="space-y-2">
@@ -95,7 +94,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact Info */}
+        
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-white mb-3">Get In Touch</h4>
             <div className="space-y-3">
@@ -124,10 +123,10 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Divider */}
+     
         <div className="border-t border-white/20 my-8" />
 
-        {/* Bottom Footer */}
+      
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-blue-100 text-sm text-center md:text-left">
             © {currentYear} Jai Shree Shyam Enterprises. All rights reserved.
