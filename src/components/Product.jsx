@@ -21,7 +21,7 @@ export default function Products() {
     },
     {
       id: 3,
-      title: "1 Liter Classic",
+      title: "1Litre Classic",
       subtitle: "Events & Seminars",
       image: img04,
     },
@@ -72,7 +72,7 @@ export default function Products() {
                 <img
                   src={product.image}
                   alt={product.title}
-                  className="w-full h-full  object-fit
+                  className="w-full h-95   object-fit
 
 
                     transition-transform duration-500 group-hover:scale-105"
